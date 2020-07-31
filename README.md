@@ -1,7 +1,7 @@
 # test_chat
 ソケット通信を行う。
 
-#🚀 Usage
+# 🚀 Usage
 
 実行ファイルの生成
 
@@ -22,5 +22,5 @@ make
 	./sock_send
 	```
 	
-#🗒Lisence
-これは[MIT License]()で公開されています。
+# 🗒Lisence
+これは[MIT License](LICENSE)で公開されています。
