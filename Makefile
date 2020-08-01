@@ -1,12 +1,9 @@
 CC := gcc
 
-ALL: sock_recv sock_send
+ALL: sock_chat
 
-sock_recv: sock_recv.c
-	$(CC) -o sock_recv sock_recv.c
-
-sock_send: sock_send.c
-	$(CC) -o sock_send sock_send.c
+sock_chat: sock_chat.c
+	$(CC) -o sock_chat sock_chat.c
 
 clean:
-	$(RM) sock_recv sock_send
+	$(RM) sock_chat
